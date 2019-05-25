@@ -1,3 +1,1 @@
-import num from './test';
-
-console.log(`${num} was imported from another module`);
+console.log(`was imported from another module`);

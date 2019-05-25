@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "watch": "webpack-dev-server --mode development --open"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.32.1",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.4.1"
