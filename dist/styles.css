@@ -1,6 +1,16 @@
-h2 {
-  background: lavender; }
-  h2 span {
-    font-size: 0.9rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+div {
+  display: flex; }
+  div h2 {
+    background: wheat;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+    div h2 span {
+      font-size: 0.7rem;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
 

@@ -1,8 +1,14 @@
-h2 {
-    background: wheat;
+div {
+    display: flex;
 
-    span {
-        font-size: 0.7rem;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    h2 {
+        background: wheat;
+        user-select: none;
+    
+        span {
+            font-size: 0.7rem;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            user-select: none;
+        }
     }
 }
