@@ -15,6 +15,9 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: './src/index.html'
+        }),
+        new MiniCssExtractPlugin({
+            filename: 'styles.css'
         })
     ],
     module: {
@@ -27,16 +30,17 @@ module.exports = {
                 }
             },
             {
-                test: /\.css$/,
-                use: [
-                    'style-loader',
-                    'css-loader'
-                ]
-            },
-            {
                 test: /\.scss$/,                
                 use:[                    
                     'style-loader',                  
+                    'css-loader',
+                    'sass-loader'
+                ]
+            },
+            {
+                test: /\.scss$/,
+                use: [
+                    MiniCssExtractPlugin.loader,
                     'css-loader',
                     'sass-loader'
                 ]

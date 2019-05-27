@@ -1,4 +1,3 @@
-import '../../src/style.css';
 import '../../src/styles/scss/main.scss';
 
 const x = 23
