@@ -1,16 +1,25 @@
-div {
-  display: flex; }
-  div h2 {
-    background: wheat;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; }
-    div h2 span {
-      font-size: 0.7rem;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none; }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; }
+  body h1 {
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #202020; }
+  body .line {
+    background: #e73333;
+    height: 10px;
+    width: 200px;
+    border-radius: 2px; }
+  body .list {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-top: 30px;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555; }
 
